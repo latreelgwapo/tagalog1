@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook login</title>
-    <link rel="stylesheet" href="/css/act7.css">
+    <link rel="stylesheet" href="../css/act7.css">
 
     </head>
 
@@ -29,6 +29,6 @@
     <p class="ako1"> Create a Page</p>
     <p class="ako"> for a celebrity students or teachers </p>
 </body>
-<script src="/js/facebook.js"></script>
+<script src="../js/facebook.js"></script>
 
 </html>

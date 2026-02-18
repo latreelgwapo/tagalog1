@@ -10,7 +10,7 @@ function loginFunction() {
     var getpass = pass_inp.value;
 
     if (getemail == mayko && getpass == password) {
-        window.location.href = "card.html";
+        window.location.href = "../card.php";
     } else {
         alert("Login Failed");
         email_inp.style = "border-color: red; color: red";
