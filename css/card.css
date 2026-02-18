@@ -1,0 +1,167 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(okie.jpg);
+}
+
+.g {
+    background-color: rgba(64, 226, 43, 0.205);
+    border-radius: 5px;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-family: tahoma;
+    border-style: solid;
+    margin: 14px;
+    box-shadow: 5px 10px black;
+}
+
+.g:hover {
+    scale: 1.05;
+
+}
+
+.div1 {
+    background-color: rgba(128, 255, 0, 0.247);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    border: color black;
+    box-shadow: 2px 5px black;
+    text-align: center;
+    margin: 20px;
+}
+
+.div1:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+}
+
+.b {
+    background-color: rgba(137, 43, 226, 0.295);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    border: color black;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 5px black;
+}
+
+.b:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.c {
+    background-color: rgba(0, 0, 255, 0.308);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10x;
+    border: solid;
+    border: color black;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 5px black;
+}
+
+.c:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.d {
+    background-color: rgba(0, 255, 255, 0.267);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    border: color black;
+    box-shadow: 2px 5px black;
+    text-align: center;
+    margin: 20px;
+}
+
+.d:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.e {
+    background-color: rgba(0, 255, 255, 0.349);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 5px black;
+    border: solid;
+    border: color black;
+    text-align: center;
+    margin: 20px;
+}
+
+.e:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.f {
+    background-color: rgba(0, 255, 234, 0.267);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 2px 5px black;
+    border: color black;
+    text-align: center;
+    margin: 20px;
+}
+
+.f:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.h {
+    background-color: rgba(222, 184, 135, 0.26);
+    display: inline-block;
+    border-style: solid;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    box-shadow: 2px 5px black;
+    border: color black;
+    text-align: center;
+    margin: 20px;
+}
+
+.h:hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+
+}
+
+.link {
+    text-align: center;
+}

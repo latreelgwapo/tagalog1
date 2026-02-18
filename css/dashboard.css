@@ -1,0 +1,193 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-image: url(https://wallpaperaccess.com/full/5652035.jpg);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.a {
+  color: white;
+}
+
+
+.compute {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #2b1e0fd8;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.459);
+}
+
+
+.a {
+  font-size: 2rem;
+  user-select: none;
+}
+
+
+.naruto {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  user-select: none;
+}
+
+
+.naruto span:hover {
+  color: #3e3bff88;
+  cursor: pointer;
+}
+
+.naruto a.active {
+  color: #3b4fffb9;
+
+}
+
+.naruto span::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #3bff45b7;
+  transition: width 0.3s ease;
+}
+
+.naruto span:hover::after {
+  width: 100%;
+}
+
+
+@keyframes fadeDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.mama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  min-height: 80vh;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.maam2 {
+  max-width: 600px;
+  margin-bottom: 290px;
+}
+
+.maam2 h2 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.maam2 .highlight {
+  color: #3bffffee;
+}
+
+.maam2 p {
+  font-size: 1.5rem;
+  color: #ff3b3b;
+  margin-bottom: 30px;
+}
+
+.picture {
+  width: 350px;
+  border-radius: 12px;
+  border: 4px solid #f15454;
+  box-shadow: 0 0 25px rgba(255, 59, 59, 0.6);
+  margin-top: -300px;
+  height: 100%;
+  padding-right: 0px;
+}
+
+.in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s ease forwards;
+}
+
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ako {
+  padding: 100px 150px;
+  background-color: rgba(15, 43, 16, 0.726);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+}
+
+.ako h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff3bbe;
+  ;
+}
+
+.ako p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.kapoy2 {
+  float: left;
+  margin-right: 20px;
+  border-radius: 12px;
+  border: 4px solid #f15454;
+  box-shadow: 0 0 25px rgba(255, 59, 59, 0.6);
+}
+.one {
+  padding: 100px 150px;
+  background-color: rgba(43, 18, 15, 0.692);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+}
+.one h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ff483bc9;
+  
+}
+.two {
+  padding: 100px 150px;
+  background-color: rgba(15, 43, 43, 0.726);
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+}
+table th, td{
+border: #1f2933  solid 1px;
+}
