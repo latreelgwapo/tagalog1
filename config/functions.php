@@ -74,7 +74,7 @@ function updateUser($user_id, $names, $age, $address, $usernames, $passwords)
         "address" => $address,
         "username" => $usernames,
         "password" => $passwords,
-        "user_id" => $user_id   
+        "user_id" => $user_id
     ]);
 
     return $stmnt;
@@ -100,7 +100,7 @@ function updateproducts($prod_name, $prod_quantity, $prod_type, $prod_price, $pr
         "prod_type" => $prod_type,
         "prod_price" => $prod_price,
         "prod_date_added" => $prod_date_added,
-        "prod_id" => $prod_id   
+        "prod_id" => $prod_id
     ]);
 
     return $stmnt;
@@ -115,7 +115,7 @@ function deleteuser($id)
     $sql = "DELETE FROM user WHERE user_id = :id";
     $stmnt = $conn->prepare($sql);
     $stmnt->execute([
-    "id" => $id
+        "id" => $id
 
     ]);
     return $stmnt;
@@ -128,7 +128,7 @@ function deleteProduct($id)
     $sql = "DELETE FROM products WHERE prod_id = :id";
     $stmnt = $conn->prepare($sql);
     $stmnt->execute([
-    "id" => $id
+        "id" => $id
 
     ]);
     return $stmnt;
