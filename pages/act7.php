@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="../css/act7.css">
 
 </head>
+<?php
+include "resources/header.php";
+?>
 
 <body>
-
+    <?php
+    include "../config/includes.php";
+    ?>
     <div class="chaff">
         <div class="velila">
             <h1>facebook</h1>
@@ -24,15 +29,12 @@
                     <button class="danosos" onclick="loginFunction()">Log In</button>
                     <p class="jimkurt">Forgot Password?</p>
                     <!-- <button class="tagalog">Create New Account</button> -->
-                     <a href="createfacebook.php" class="tagalog">Create New Account</a>
+                    <a href="createfacebook.php" class="tagalog">Create New Account</a>
                 </div>
             </div>
         </div>
-
-       
-
-            <p class="ako1"> Create a Page</p>
-            <p class="ako"> for a celebrity students or teachers </p>
+        <p class="ako1"> Create a Page</p>
+        <p class="ako"> for a celebrity students or teachers </p>
 </body>
 <script src="../js/facebook.js"></script>
 

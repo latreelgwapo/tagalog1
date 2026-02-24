@@ -2,7 +2,7 @@
 $username ='root';
 $password ='';
 $servername ='localhost';                      
-$dbname ='cp4s_tagalog_db';
+$dbname ='facebook_user';
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

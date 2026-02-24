@@ -1,11 +1,11 @@
  <?php
 
-include "../../config/include.php";
+include "../../config/includes.php";
 
 if (isset($_POST['email']) && isset($_POST['username']) && isset($_POST['first_name']) 
     && isset($_POST['last_name']) && isset($_POST['mobile_num']) 
     && isset($_POST['birthday']) && isset($_POST['gender']) 
-    && isset($_POST['password']) && isset($_POST['confirm password'])) {
+    && isset($_POST['password']) && isset($_POST['confirm_password'])) {
 
     $user_name  = $_POST['username'];
     $email      = $_POST['email'];
@@ -15,9 +15,9 @@ if (isset($_POST['email']) && isset($_POST['username']) && isset($_POST['first_n
     $birthday = $_POST['birthday'];
     $gender     = $_POST['gender'];
     $password   = $_POST['password'];
-    $confirm    = $_POST['confirm password'];
+    $confirm    = $_POST['confirm_password'];
 
-    if ($password != $confirm) {
+    if ($password !== $confirm) {
         echo "<script>alert('Passwords do not match. Please try again.');</script>";
         exit();
     }
@@ -27,16 +27,20 @@ if (isset($_POST['email']) && isset($_POST['username']) && isset($_POST['first_n
             VALUES 
             (:username, :email, :first_name, :last_name, :mobile_num, :birthday, :gender, :password)";
 
-    $stmt = $conn->prepare($sql);
-    $stmt->execute([
+    $stmnt = $conn->prepare($sql);
+    $stmnt->execute([
         "username"   => $user_name,
         "email"      => $email,
         "first_name" => $first_name,
         "last_name"  => $last_name,
         "mobile_num" => $mobile_number,
-        "birthday"  => $birthday,
+        "birthday"  => $birthday, 
         "gender"     => $gender,
         "password"   => $password
     ]);
+    if($stmnt){
+        echo "<script>window.location.href = '../act7.php'</script>";
+    }
 }
+    
 ?>

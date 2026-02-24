@@ -1,15 +1,20 @@
    <!DOCTYPE html>
    <html>
- <link rel="stylesheet" href="../css/facebook.css">
+   <link rel="stylesheet" href="../css/facebook.css">
 
    <head>
        <title>Create Account</title>
 
    </head>
+   <?php
+    include "resources/header.php";
+    ?>
 
    <body>
-
-       <form method="../config/createacc.php" action="act7.php">
+       <?php
+        include "../config/includes.php";
+        ?>
+        <form action="pages/functions/createfacebook.php" method="POST">
            <h2>Create New Account</h2>
            <input type="text" name="email" placeholder="Email or phone number" required>
            <input type="text" name="username" placeholder="Username" required>
@@ -24,11 +29,9 @@
                <option value="Other">Other</option>
            </select>
            <input type="password" name="password" placeholder="password" required>
-            <input type="confirm password" name="confirm password" placeholder="confirm password" required>
-           
-           <button type="submit" name="submit">Create New Account</button>
-       </form>
-
+           <input type="confirm password" name="confirm_password" placeholder="confirm password" required>
+           <button type="submit">Create New Account</button>
+</form>
    </body>
 
    </html>
