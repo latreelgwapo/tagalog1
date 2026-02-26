@@ -1,3 +1,14 @@
+<?php
+
+if(isset($_GET['status']) && $_GET['status'] == "false"){
+ echo "<script> alert('Username and Password is incorrect') </script>";
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,13 +19,9 @@
     <link rel="stylesheet" href="../css/act7.css">
 
 </head>
-<?php
-include "resources/header.php";
-?>
 
 <body>
-    <?php
-    include "../config/includes.php";
+   
     ?>
     <div class="chaff">
         <div class="velila">
@@ -36,6 +43,5 @@ include "resources/header.php";
         <p class="ako1"> Create a Page</p>
         <p class="ako"> for a celebrity students or teachers </p>
 </body>
-<script src="../js/facebook.js"></script>
 
 </html>
